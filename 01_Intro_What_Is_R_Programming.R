@@ -20,7 +20,10 @@
 
 #It's a programming language, so think of it to start at its most basic
 
+
+
 1+1
+
 
 2*5
 
@@ -41,7 +44,9 @@ c("Billy","Sallie")
 #Other languages call them variables, R calls them objects...but they're the same idea
 #Assigning something a name, so that you can use it
 
-myobject <- 1
+
+myobject<-1
+
 
 #now I can tell R to give me the value of myobject by referring to it by its name
 myobject
