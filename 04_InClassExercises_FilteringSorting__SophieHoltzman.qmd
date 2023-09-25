@@ -113,7 +113,7 @@ impeach %>%
 ```
 
 7)  Sort the just those who are NO on impeachment based on the percentage of a district that has a bachelor's degree or higher ("pct_bachelors"), from lowest to highest.
-##In this question, I combined the filter and arrange commands to arrange for those who voted no on impeachment according to the percent of their district that has a bachelor's degree.
+#In this question, I combined the filter and arrange commands to arrange for those who voted no on impeachment according to the percent of their district that has a bachelor's degree.
 
 ```{r}
 
@@ -139,7 +139,7 @@ filter(impeach, for_impeachment == "NO", pct_bachelors_compared_to_national == "
 ```
 
 9)  Filter for only members from New Jersey who are NO on impeachment.
-##I filtered using the state section and the same filtering command.
+#I filtered using the state section and the same filtering command.
 
 ```{r}
 
@@ -150,7 +150,7 @@ filter(impeach, for_impeachment == "NO", state == "NJ")
 ```
 
 10) Filter for those who were YES on impeachment, with a declared date prior to 2019. So only those with dates before 2019. Then sort those so that the highest Clinton vote percentages are at the top.
-##Combining filter and arrange once again, I sorted for dates prior to 2019 and arranged percentages highest to lowest.
+#Combining filter and arrange once again, I sorted for dates prior to 2019 and arranged percentages highest to lowest.
 
 ```{r}
 
